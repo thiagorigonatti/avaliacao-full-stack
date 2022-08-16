@@ -3,7 +3,7 @@ Avaliação para vaga de desenvolvedor Java full-stack
 
 [![](https://img.shields.io/discord/677642178083946580?color=%23768ACF&label=Discord)](https://discord.gg/U8NcPcHxW3)
 
-###NOTAS:
+### NOTAS:
 Até o presente momento, fui capaz de em pouco mais de 24 horas criar o backend dessa aplicação spring, com spring boot; 
 
 - 3 domínios `User`, `Account` e `Transaction`, um usuário pode ter várias contas e agendar várias transações
@@ -11,7 +11,7 @@ Até o presente momento, fui capaz de em pouco mais de 24 horas criar o backend 
 - implementei a regra para o cálculo das taxas a serem pagas de acordo com o que se pede
 - criei até aqui, alguns testes unitários para os repositórios e serviços
 
-###COMO TESTAR:
+### COMO TESTAR:
 
 GET listar todas as contas: `localhost:8080/api/accounts`
 
@@ -148,4 +148,4 @@ GET encontrar transação por número da conta ex: `localhost:8080/api/transacti
     }
 ]
 ```
-####OBS: Dado meu tempo apertado e outros testes que devo fazer, não pude desenvolver a parte de segurança, documentação, métricas e não pude iniciar a parte do frontend, caso tenha interesse real em me contratar, posso concluir esse projeto posteriormente.
+#### OBS: Dado meu tempo apertado e outros testes que devo fazer, não pude desenvolver a parte de segurança, documentação, métricas e não pude iniciar a parte do frontend, caso tenha interesse real em me contratar, posso concluir esse projeto posteriormente.
